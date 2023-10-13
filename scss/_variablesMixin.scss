@@ -1,0 +1,23 @@
+$bg-color: #79D5D6;
+$main-color:#381E1F;
+$main-color2: #6B6040;
+
+$opacity1 : rgba(56, 30, 31, 0.2) ;
+$opacity2 : rgba(56, 30, 31, 0.1) ;
+$opacity3 : rgba(255,255,255,0.5);
+
+$gray1: #5f5651;
+$gray2: #978c85;
+$gray3: #d8d1cc;
+$gray4: #e7e2de;
+
+@mixin set-box($width:100%,$height:100%,$border-radius:0){
+  width:$width;
+  height:$height;
+  border-radius:$border-radius ;
+}
+
+%double {
+  display: flex;
+  justify-content: space-between;
+}
